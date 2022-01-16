@@ -1,9 +1,13 @@
 <template>
-  <div>今日头条</div>
+  <div id="app">今日头条
+
+    <!-- 路由的出口 -->
+    <router-view />
+  </div>
 </template>
 <script>
 export default {
-
+  name: 'App'
 }
 </script>
 
